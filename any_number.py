@@ -2,25 +2,25 @@
 
 # Created by Devin Jhu
 # Created on March 2022
-# The area and perimeter calculator
+# The number game
+
+import constants
 
 
 def main():
-    # this function calculates the area and perimeter of a rectangle
+    # this function is a guessing game
+
+    print("The number game")
+    print("Guess a number between 1 and 9")
 
     # input
-    width = int(input("Enter width of rectangle(mm): "))
-    height = int(input("Enter height of rectangle(mm): "))
+    NumberGuess = int(input("enter number: "))
 
     # process
-    area_of_rectangle = width * height
-    perimeter_of_rectangle = 2 * (width + height)
-
-    # output
-    print("")
-    print("Area is {0} mm².".format(area_of_rectangle))
-    print("Perimeter is {0} mm.".format(perimeter_of_rectangle))
-    print("")
+    if NumberGuess == constants.NumberAnswer:
+        print("you win!")
+    else:
+        print("you lose :(")
     print("Done.")
 
 
