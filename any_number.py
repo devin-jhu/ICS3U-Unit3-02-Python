@@ -17,7 +17,7 @@ def main():
     NumberGuess = int(input("enter number: "))
 
     # process
-    if NumberGuess == constants.NumberAnswer:
+    if NumberGuess == constants.NUMBER_ANSWER:
         print("you win!")
     else:
         print("you lose :(")
