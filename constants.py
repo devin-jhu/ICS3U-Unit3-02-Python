@@ -4,4 +4,4 @@
 # Created on March 2022
 # The constants the game
 
-NumberAnswer = 7
+NUMBER_ANSWER = 7
